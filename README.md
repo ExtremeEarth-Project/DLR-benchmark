@@ -72,7 +72,7 @@ docker cp my_benchmark_gui_v1_1:/var/local/Annotation/annotation.csv /path/to/lo
 
 
 ### Sentinel-1 product not appear in folder mounted in docker
-### change access permission
+change access permission
 
 chmod -R 775 /path/to/local/S1_product
 
@@ -83,8 +83,27 @@ chmod -R 775 /path/to/local/S1_product
 
 Please restart the docker container.
 
-### Bug
+### Meet bugs
 
 First try, restart docker; <br />
 otherwise, please contact: wei.yao@dlr.de
+
+## Licensing
+MIT license
+
+Copyright (c) 2021 DLR
+
+## Include Credits
+We are releasing software packages which were developed in the project ExtremeEarth, , but could be generally useful for Earth observation research. If you find them useful, please consider citing our work. These include:
+@INPROCEEDINGS{9554198,
+  author={Yao, Wei and Dumitru, Octavian and Datcu, Mihai},
+  booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS}, 
+  title={An Active Learning Tool for the Generation of Earth Observation Image Benchmarks}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={5720-5723},
+  doi={10.1109/IGARSS47720.2021.9554198}}
+
+tbc
 	
