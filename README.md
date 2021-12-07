@@ -94,7 +94,7 @@ MIT license
 Copyright (c) 2021 DLR
 
 ## Include Credits
-We are releasing software packages which were developed in the project ExtremeEarth, but could be generally useful for Earth observation dataset generation. If you find them useful, please consider citing our work. These include:
+We are releasing software packages which were developed in the project ExtremeEarth http://earthanalytics.eu/, but could be generally useful for Earth observation dataset generation. If you find them useful, please consider citing our work. These include:
 
 ```bibtex
 
