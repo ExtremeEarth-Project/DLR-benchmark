@@ -33,31 +33,31 @@ After creating the container, wait for ~ 5 seconds until the container is correc
 Otherwise, if start to run the container immediately, may get this issue:
 	error connecting to the database ..
 
-###
+##
+## Inside docker
+
 ### Input folder
 
 Mount directory in container:
 /var/local/S_product
 
-###
+
 ### Output folder
 
 Output image patches in container:
 /var/local/Output
 
-###
+
 ### Annotation folder
 
 Save annotations in container:
 /var/local/Annotation
 
-
-###
 ### command line mode in docker container 
 
 docker exec -ti my_benchmark_gui_v1_1 /bin/bash
 
-###
+
 ### database access in docker container command line mode
 
 mclient -d benchmark
@@ -65,25 +65,24 @@ mclient -d benchmark
 for example,
 sql> copy select * from annotation into '/var/local/Annotation/annotation.csv' using delimiters ',', '\n', '"';
 
-###
+
 ### Transfer annotation to local machine
 
 docker cp my_benchmark_gui_v1_1:/var/local/Annotation/annotation.csv /path/to/local/Annotation/annotation.csv
 
-###
+
 ### Sentinel-1 product not appear in folder mounted in docker
 ### change access permission
 
 chmod -R 775 /path/to/local/S1_product
 
-###
-### S2 procedure stops at error message:
+
+### S2 procedure stops at message
  ptileBottom: ****.******* ****.******* ****.*******
  ptileTop: ****.******* ****.******* ****.******* 
 
 Please restart the docker container.
 
-###
 ### Bug
 
 First try, restart docker;
