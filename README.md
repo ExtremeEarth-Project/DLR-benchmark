@@ -13,7 +13,7 @@ docker installation on local Linux machine.
 If not, for linux Ubuntu system, run the following bash script to install docker:
 
 /bash
-. 0_install_docker.sh
+* . 0_install_docker.sh
 
 ##
 ## Run benchmark_gui
@@ -21,15 +21,15 @@ If not, for linux Ubuntu system, run the following bash script to install docker
 For the benchmark tool, run the following bash script in order:
 
 /bash
-1. . 1_install_benchmark_gui.sh
-2. . 2_create_container.sh
-3. . 3_run_container.sh
-4. . 4_remove_container.sh
+* . 1_install_benchmark_gui.sh
+* . 2_create_container.sh
+* . 3_run_container.sh
+* . 4_remove_container.sh
 
 ##
 ## Notice
 
-After creating the container, wait for ~ 5 seconds until the container is correctly configured.
+After creating the container, wait for ~ 5 seconds until the container is correctly configured. <br />
 Otherwise, if start to run the container immediately, may get this issue:
 	error connecting to the database ..
 
@@ -53,16 +53,16 @@ Output image patches in container:
 Save annotations in container:
 /var/local/Annotation
 
-### command line mode in docker container 
+### Command line mode in docker container 
 
 docker exec -ti my_benchmark_gui_v1_1 /bin/bash
 
 
-### database access in docker container command line mode
+### Database access in docker container command line mode
 
 mclient -d benchmark
 
-for example,
+for example, <br />
 sql> copy select * from annotation into '/var/local/Annotation/annotation.csv' using delimiters ',', '\n', '"';
 
 
@@ -78,13 +78,13 @@ chmod -R 775 /path/to/local/S1_product
 
 
 ### S2 procedure stops at message
- ptileBottom: ****.******* ****.******* ****.*******
+ ptileBottom: ****.******* ****.******* ****.******* <br />
  ptileTop: ****.******* ****.******* ****.******* 
 
 Please restart the docker container.
 
 ### Bug
 
-First try, restart docker;
+First try, restart docker; <br />
 otherwise, please contact: wei.yao@dlr.de
 	
