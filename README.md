@@ -94,11 +94,11 @@ MIT license
 Copyright (c) 2021 DLR
 
 ## Include Credits
-We are releasing software packages which were developed in the project ExtremeEarth, , but could be generally useful for Earth observation research. If you find them useful, please consider citing our work. These include:
+We are releasing software packages which were developed in the project ExtremeEarth, but could be generally useful for Earth observation dataset generation. If you find them useful, please consider citing our work. These include:
 
 ```bibtex
 
-@INPROCEEDINGS{9554198,
+@INPROCEEDINGS{Yao2021,
   author={Yao, Wei and Dumitru, Octavian and Datcu, Mihai},
   booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS}, 
   title={An Active Learning Tool for the Generation of Earth Observation Image Benchmarks}, 
