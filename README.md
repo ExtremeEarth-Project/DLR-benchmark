@@ -95,6 +95,9 @@ Copyright (c) 2021 DLR
 
 ## Include Credits
 We are releasing software packages which were developed in the project ExtremeEarth, , but could be generally useful for Earth observation research. If you find them useful, please consider citing our work. These include:
+
+```bibtex
+
 @INPROCEEDINGS{9554198,
   author={Yao, Wei and Dumitru, Octavian and Datcu, Mihai},
   booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS}, 
@@ -104,6 +107,7 @@ We are releasing software packages which were developed in the project ExtremeEa
   number={},
   pages={5720-5723},
   doi={10.1109/IGARSS47720.2021.9554198}}
+```
 
 tbc
 	
