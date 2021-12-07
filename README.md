@@ -21,10 +21,10 @@ If not, for linux Ubuntu system, run the following bash script to install docker
 For the benchmark tool, run the following bash script in order:
 
 /bash
-. 1_install_benchmark_gui.sh
-. 2_create_container.sh
-. 3_run_container.sh
-. 4_remove_container.sh
+1. . 1_install_benchmark_gui.sh
+2. . 2_create_container.sh
+3. . 3_run_container.sh
+4. . 4_remove_container.sh
 
 ##
 ## Notice
