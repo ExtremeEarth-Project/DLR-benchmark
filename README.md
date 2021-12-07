@@ -1,33 +1,33 @@
-################## README ####################
-### Date: 2021.03.05
-### Tool v1.1
-###
-### Readme file update
-### Date: 2021.08.05
+## Version
+Date: 2021.03.05
+Tool v1.1
 
-###
-### Prerequisite:
+Date: 2021.08.05
+Readme file update
+
+##
+## Prerequisite
 
 docker installation on local Linux machine.
 
 If not, for linux Ubuntu system, run the following bash script to install docker:
 
-<bash>
+/bash
 . 0_install_docker.sh
 
-###
-### benchmark_gui
+##
+## Run benchmark_gui
 
 For the benchmark tool, run the following bash script in order:
 
-<bash>
+/bash
 . 1_install_benchmark_gui.sh
 . 2_create_container.sh
 . 3_run_container.sh
 . 4_remove_container.sh
 
-###
-### Notice
+##
+## Notice
 
 After creating the container, wait for ~ 5 seconds until the container is correctly configured.
 Otherwise, if start to run the container immediately, may get this issue:
@@ -78,8 +78,8 @@ chmod -R 775 /path/to/local/S1_product
 
 ###
 ### S2 procedure stops at error message:
-### ptileBottom: ****.******* ****.******* ****.******* 
-### ptileTop: ****.******* ****.******* ****.******* 
+ ptileBottom: ****.******* ****.******* ****.*******
+ ptileTop: ****.******* ****.******* ****.******* 
 
 Please restart the docker container.
 
